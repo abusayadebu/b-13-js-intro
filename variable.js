@@ -25,14 +25,21 @@ The first line of the input is the marks of the five subjects mentioned above, r
 */
 
 
-let math = 80;
-let biology = 70;
+let math = 80.8;
+let biology = 70.5;
 let chemistry = 80;
-let physics = 50;
+let physics = 50.2;
 let bangla = 80;
 
 const avgMark = (math + biology + chemistry + physics + bangla) / 5;
-// console.log(avgMark); 
+// console.log(avgMark.toFixed(3)); 
 
-// 
+// You task is to divide the given number by 5 and show the remainder as the output.
+
+let givenNumber = 119;
+
+const remainderNumber = givenNumber % 5;
+
+console.log(remainderNumber);
+
 
