@@ -40,6 +40,12 @@ let givenNumber = 119;
 
 const remainderNumber = givenNumber % 5;
 
-console.log(remainderNumber);
+// console.log(remainderNumber);
 
+// What will be the result of the following codes:
 
+var a = isNaN('11');
+
+console.log(a);
+
+// var a = isNaN(2-10);
