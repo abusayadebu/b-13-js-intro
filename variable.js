@@ -16,7 +16,23 @@ var applePrice = 400;
 var totalprice = orangePrice + applePrice;
 
 var remainingMoney = givenMoney - totalprice; 
-console.log(remainingMoney);
+// console.log(remainingMoney);
 
-// - Problem-2 --
+/*  - Problem-2 --Write a program to calculate the average marks of Mathematics, Biology, Chemistry, Physics, and Bangla of a student. 
+
+Input:
+The first line of the input is the marks of the five subjects mentioned above, respectively.
+*/
+
+
+let math = 80;
+let biology = 70;
+let chemistry = 80;
+let physics = 50;
+let bangla = 80;
+
+const avgMark = (math + biology + chemistry + physics + bangla) / 5;
+// console.log(avgMark); 
+
+// 
 
